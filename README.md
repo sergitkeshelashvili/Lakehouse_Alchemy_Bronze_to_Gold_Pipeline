@@ -1,9 +1,13 @@
-# 🌌 Lakehouse-Alchemy: Bronze-to-Gold Pipeline
+# 🌌 Lakehouse_Alchemy: Bronze_to_Gold_Pipeline
 
 ![Databricks](https://img.shields.io/badge/Platform-Databricks-orange?logo=databricks)
+
 ![PySpark](https://img.shields.io/badge/PySpark-ETL-blue?logo=apachespark)
+
 ![Delta Lake](https://img.shields.io/badge/Delta%20Lake-Storage-brightgreen)
+
 ![Spark SQL](https://img.shields.io/badge/Spark%20SQL-Analytics-purple?logo=apachespark)
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 > **From raw JSON chaos to curated analytics — an end-to-end PySpark Lakehouse pipeline.**
