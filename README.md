@@ -44,7 +44,7 @@ It leverages **PySpark Structured Streaming** to process unstructured JSON data 
 
 The pipeline follows the **Medallion Architecture**:
 
-![Architecture Diagram](diagrams/medallion_architecture.png)
+![Architecture Diagram](data_lakehouse/diagrams/lakehouse_alchemy_project_architecture.png)
 
 ### Bronze Layer (`bronze_ingestion.py`)
 
