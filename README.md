@@ -112,7 +112,6 @@ Lakehouse-Alchemy-Bronze-to-Gold-Pipeline/
 * ⏱️ Continuous streaming triggers (`processingTime = '1 minute'`).
 * 📊 Direct integration with Tableau/Power BI.
 * 🔔 Monitoring & alerting for pipeline failures.
-* 🚀 Orchestration via **Airflow / Databricks Workflows**.
 * ✅ Data observability with **Great Expectations**.
 * ⚙️ CI/CD automation using **GitHub Actions**.
 
@@ -129,14 +128,14 @@ Lakehouse-Alchemy-Bronze-to-Gold-Pipeline/
 ## 📬 Contact
 
 * **Author**: Sergi Tkeshelashvili
-* 📂 **Repository**: [Lakehouse-Alchemy-Bronze-to-Gold-Pipeline](https://github.com/your-username/Lakehouse-Alchemy-Bronze-to-Gold-Pipeline)
+* 📂 **Repository**: [Lakehouse-Alchemy-Bronze-to-Gold-Pipeline](https://github.com/sergitkeshelashvili/Lakehouse-Alchemy-Bronze-to-Gold-Pipeline)
 * 💼 LinkedIn: [https://www.linkedin.com/in/sergi-tkeshelashvili-022011383](https://www.linkedin.com/in/sergi-tkeshelashvili-022011383)
 
 ---
 
-## 📜 License
+## 🛡️ License  
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+Licensed under the **MIT License**.  
 
 ---
 
