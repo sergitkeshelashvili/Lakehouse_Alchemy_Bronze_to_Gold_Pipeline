@@ -1,0 +1,33 @@
+[
+  {
+    "order_id": "O1001",
+    "timestamp": "2023-08-01T10:00:00Z",
+    "customer": {
+      "customer_id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "address": {"city": "New York", "postal_code": "10001", "country": "USA"}
+    },
+    "items": [
+      {"item_id": "P001", "product_name": "Laptop", "quantity": 1, "price": 1200.50},
+      {"item_id": "P002", "product_name": "Headphones", "quantity": 2, "price": 150.75}
+    ],
+    "payment": {"method": "Credit Card", "transaction_id": "T123456"},
+    "metadata": [{"key": "priority", "value": "high"}, {"key": "channel", "value": "online"}]
+  },
+  {
+    "order_id": "O1002",
+    "timestamp": "2023-08-01T11:30:00Z",
+    "customer": {
+      "customer_id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "address": {"city": "Los Angeles", "postal_code": "90001", "country": "USA"}
+    },
+    "items": [
+      {"item_id": "P003", "product_name": "Smartphone", "quantity": 1, "price": 800.00}
+    ],
+    "payment": {"method": "PayPal", "transaction_id": "T654321"},
+    "metadata": [{"key": "priority", "value": "low"}, {"key": "channel", "value": "mobile"}]
+  }
+]

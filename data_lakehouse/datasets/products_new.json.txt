@@ -1,0 +1,6 @@
+{
+  "product_id": "P004",
+  "product_name": "Tablet",
+  "category": "Electronics",
+  "price": 500.00
+}

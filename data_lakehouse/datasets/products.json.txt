@@ -1,0 +1,5 @@
+[
+  {"product_id": "P001", "product_name": "Laptop", "category": "Electronics", "price": 1200.50},
+  {"product_id": "P002", "product_name": "Headphones", "category": "Electronics", "price": 150.75},
+  {"product_id": "P003", "product_name": "Smartphone", "category": "Electronics", "price": 800.00}
+]

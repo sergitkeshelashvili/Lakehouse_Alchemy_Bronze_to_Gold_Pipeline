@@ -1,0 +1,6 @@
+{
+  "customer_id": 4,
+  "name": "David Lee",
+  "email": "david@example.com",
+  "address": {"city": "Houston", "postal_code": "77001", "country": "USA"}
+}

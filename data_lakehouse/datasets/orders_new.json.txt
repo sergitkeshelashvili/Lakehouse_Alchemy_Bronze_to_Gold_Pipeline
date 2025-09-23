@@ -1,0 +1,15 @@
+{
+  "order_id": "O1003",
+  "timestamp": "2023-08-02T09:15:00Z",
+  "customer": {
+    "customer_id": 3,
+    "name": "Charlie Brown",
+    "email": "charlie@example.com",
+    "address": {"city": "Chicago", "postal_code": "60601", "country": "USA"}
+  },
+  "items": [
+    {"item_id": "P004", "product_name": "Tablet", "quantity": 2, "price": 500.00}
+  ],
+  "payment": {"method": "Credit Card", "transaction_id": "T987654"},
+  "metadata": [{"key": "priority", "value": "medium"}, {"key": "channel", "value": "online"}]
+}

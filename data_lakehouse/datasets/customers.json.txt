@@ -1,0 +1,20 @@
+[
+  {
+    "customer_id": 1,
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "address": {"city": "New York", "postal_code": "10001", "country": "USA"}
+  },
+  {
+    "customer_id": 2,
+    "name": "Bob Smith",
+    "email": "bob@example.com",
+    "address": {"city": "Los Angeles", "postal_code": "90001", "country": "USA"}
+  },
+  {
+    "customer_id": 3,
+    "name": "Charlie Brown",
+    "email": "charlie@example.com",
+    "address": {"city": "Chicago", "postal_code": "60601", "country": "USA"}
+  }
+]
