@@ -48,20 +48,20 @@ The pipeline follows the **Medallion Architecture**:
 
 ![Architecture Diagram](data_lakehouse/diagrams/lakehouse_alchemy_project_architecture.png)
 
-### Bronze Layer (`bronze_ingestion.py`)
+### 🥉Bronze Layer (`bronze_ingestion.py`)
 
 * Ingests raw JSON from `/Volumes/pyspark_dwh/source/source_data`.
 * Wraps data into `payload` struct with **file path + ingestion timestamp**.
 * Streams into `pyspark_dwh.bronze` Delta tables.
 
-### Silver Layer (`silver_transformation.py`)
+### 🥈Silver Layer (`silver_transformation.py`)
 
 * Flattens nested structs and arrays.
 * Deduplicates by **entity-specific primary keys**.
 * Adds `silver_ingest_ts`.
 * Streams into `pyspark_dwh.silver`.
 
-### Gold Layer (`golden_transformation.py`)
+### 🥇Gold Layer (`golden_transformation.py`)
 
 * Builds **star schema**:
 
