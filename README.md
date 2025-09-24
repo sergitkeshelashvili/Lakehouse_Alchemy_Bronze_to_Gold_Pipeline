@@ -34,9 +34,11 @@ It leverages **PySpark Structured Streaming** to process unstructured JSON data 
 * ⚪ **Silver Layer**: Flattens nested structures, deduplicates records, and ensures data quality.
 * 🟡 **Gold Layer**: Creates analytics-ready **dimension** and **fact tables** optimized for reporting.
 * 🏗️ **Medallion Architecture**: Organizes data into **Bronze (raw)**, **Silver (cleaned)**, **Gold (curated)**.
+* 🧹 **Data Quality Framework** – Validates primary keys, strings, dates, numeric ranges, and entity-specific rules.
 * 🔄 **Structured Streaming**: Supports batch and continuous processing with fault tolerance.
 * 💾 **Delta Lake**: Provides ACID transactions, schema enforcement, and time travel.
-* 🔍 **Data Quality Checks**: Filtering, deduplication, and validation at each stage.
+* 📈 **Optimized Analytics** – ZORDER indexing on fact tables for faster queries.
+  
 
 ---
 
@@ -71,6 +73,17 @@ The pipeline follows the **Medallion Architecture**:
 
 ---
 
+🔄 Pipeline Automation 🚀
+
+This project includes automated workflows in Databricks to orchestrate the Medallion Architecture ETL pipeline and data quality checks.
+
+It supports both batch and streaming ingestion, ensuring scalability, reliability, and production-grade execution from raw data (Bronze) to business-ready insights (Gold).
+
+![Databricks Workflow Automation](./data_lakehouse/diagrams/lakehouse_alchemy_workflow.png)
+
+
+---
+
 ## ⚙️ Technologies Used
 
 * 🐍 **Python**, **PySpark**, **SparkSQL**
@@ -86,14 +99,15 @@ The pipeline follows the **Medallion Architecture**:
 ## 📂 Project Structure
 
 ```
-Lakehouse-Alchemy-Bronze-to-Gold-Pipeline/
-├── bronze_ingestion.py      # Ingest raw JSON → Bronze
-├── silver_transformation.py # Flatten & clean → Silver
-├── golden_transformation.py # Star schema tables → Gold
-├── diagrams/                # Architecture diagrams
-├── requirements.txt         # Project dependencies
-├── LICENSE                  # MIT License
-└── README.md                # Documentation
+📂 **data_lakehouse**/
+
+┣ 📂 **datasets**/ →  JSON files (unstructured data)
+
+┣ 📂 **diagrams**/ → data architecture & schema documentations
+
+┣ 📂 **etl_scripts**/ → ETL code (`bronze_layer.py`, `silver_transformation.py`, `gold_transformation.py`)
+
+┣ 📂 **data_quality_checks**/ → Data quality & pipeline validation
 ```
 
 ---
